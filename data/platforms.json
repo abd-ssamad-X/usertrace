@@ -1,0 +1,3215 @@
+[
+  {
+    "name": "X (Twitter)",
+    "category": "social",
+    "url_template": "https://x.com/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Instagram",
+    "category": "social",
+    "url_template": "https://www.instagram.com/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "TikTok",
+    "category": "social",
+    "url_template": "https://www.tiktok.com/@{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Facebook",
+    "category": "social",
+    "url_template": "https://www.facebook.com/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Pinterest",
+    "category": "social",
+    "url_template": "https://www.pinterest.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Tumblr",
+    "category": "social",
+    "url_template": "https://{username}.tumblr.com/",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Mastodon.social",
+    "category": "social",
+    "url_template": "https://mastodon.social/@{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Threads",
+    "category": "social",
+    "url_template": "https://www.threads.net/@{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Bluesky",
+    "category": "social",
+    "url_template": "https://bsky.app/profile/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Snapchat",
+    "category": "social",
+    "url_template": "https://www.snapchat.com/add/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "VK",
+    "category": "social",
+    "url_template": "https://vk.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Weibo",
+    "category": "social",
+    "url_template": "https://weibo.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Telegram",
+    "category": "social",
+    "url_template": "https://t.me/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "MeWe",
+    "category": "social",
+    "url_template": "https://mewe.com/i/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Gab",
+    "category": "social",
+    "url_template": "https://gab.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Gettr",
+    "category": "social",
+    "url_template": "https://gettr.com/user/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Truth Social",
+    "category": "social",
+    "url_template": "https://truthsocial.com/@{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Threads (web)",
+    "category": "social",
+    "url_template": "https://threads.net/@{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Minds",
+    "category": "social",
+    "url_template": "https://www.minds.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Cohost Archive",
+    "category": "social",
+    "url_template": "https://cohost.org/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "GitHub",
+    "category": "developer",
+    "url_template": "https://github.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "GitLab",
+    "category": "developer",
+    "url_template": "https://gitlab.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Bitbucket",
+    "category": "developer",
+    "url_template": "https://bitbucket.org/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Stack Overflow",
+    "category": "developer",
+    "url_template": "https://stackoverflow.com/users/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Dev.to",
+    "category": "developer",
+    "url_template": "https://dev.to/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Hashnode",
+    "category": "developer",
+    "url_template": "https://hashnode.com/@{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "CodePen",
+    "category": "developer",
+    "url_template": "https://codepen.io/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Replit",
+    "category": "developer",
+    "url_template": "https://replit.com/@{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Kaggle",
+    "category": "developer",
+    "url_template": "https://www.kaggle.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "HackerRank",
+    "category": "developer",
+    "url_template": "https://www.hackerrank.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "LeetCode",
+    "category": "developer",
+    "url_template": "https://leetcode.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "NPM",
+    "category": "developer",
+    "url_template": "https://www.npmjs.com/~{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "PyPI",
+    "category": "developer",
+    "url_template": "https://pypi.org/user/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Codeberg",
+    "category": "developer",
+    "url_template": "https://codeberg.org/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "SourceHut",
+    "category": "developer",
+    "url_template": "https://sr.ht/~{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Gist",
+    "category": "developer",
+    "url_template": "https://gist.github.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Docker Hub",
+    "category": "developer",
+    "url_template": "https://hub.docker.com/u/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Revue (archive)",
+    "category": "developer",
+    "url_template": "https://www.getrevue.co/profile/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Hugging Face",
+    "category": "developer",
+    "url_template": "https://huggingface.co/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Observable",
+    "category": "developer",
+    "url_template": "https://observablehq.com/@{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Glitch",
+    "category": "developer",
+    "url_template": "https://glitch.com/@{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Launchpad",
+    "category": "developer",
+    "url_template": "https://launchpad.net/~{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "OpenCollective",
+    "category": "developer",
+    "url_template": "https://opencollective.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "npmjs (org)",
+    "category": "developer",
+    "url_template": "https://www.npmjs.com/org/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Gitee",
+    "category": "developer",
+    "url_template": "https://gitee.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Gitea.com",
+    "category": "developer",
+    "url_template": "https://gitea.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Behance",
+    "category": "creative",
+    "url_template": "https://www.behance.net/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Dribbble",
+    "category": "creative",
+    "url_template": "https://dribbble.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "ArtStation",
+    "category": "creative",
+    "url_template": "https://www.artstation.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "DeviantArt",
+    "category": "creative",
+    "url_template": "https://www.deviantart.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "500px",
+    "category": "creative",
+    "url_template": "https://500px.com/p/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Flickr",
+    "category": "creative",
+    "url_template": "https://www.flickr.com/people/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Pixiv",
+    "category": "creative",
+    "url_template": "https://www.pixiv.net/users/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Creative Market",
+    "category": "creative",
+    "url_template": "https://creativemarket.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Vimeo",
+    "category": "creative",
+    "url_template": "https://vimeo.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Unsplash",
+    "category": "creative",
+    "url_template": "https://unsplash.com/@{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Pexels",
+    "category": "creative",
+    "url_template": "https://www.pexels.com/@{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Canva",
+    "category": "creative",
+    "url_template": "https://www.canva.com/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Artfol",
+    "category": "creative",
+    "url_template": "https://artfol.me/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Cara",
+    "category": "creative",
+    "url_template": "https://cara.app/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Newgrounds",
+    "category": "creative",
+    "url_template": "https://www.newgrounds.com/@{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Itaku",
+    "category": "creative",
+    "url_template": "https://itaku.ee/profile/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Steam",
+    "category": "gaming",
+    "url_template": "https://steamcommunity.com/id/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Chess.com",
+    "category": "gaming",
+    "url_template": "https://www.chess.com/member/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Lichess",
+    "category": "gaming",
+    "url_template": "https://lichess.org/@/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "itch.io",
+    "category": "gaming",
+    "url_template": "https://itch.io/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Twitch",
+    "category": "gaming",
+    "url_template": "https://www.twitch.tv/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Xbox",
+    "category": "gaming",
+    "url_template": "https://www.xboxgamertag.com/search/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Roblox",
+    "category": "gaming",
+    "url_template": "https://www.roblox.com/users/{username}/profile",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Minecraft Forum",
+    "category": "gaming",
+    "url_template": "https://www.minecraftforum.net/members/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Speedrun.com",
+    "category": "gaming",
+    "url_template": "https://www.speedrun.com/users/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "BoardGameGeek",
+    "category": "gaming",
+    "url_template": "https://boardgamegeek.com/user/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Minecraft Skins",
+    "category": "gaming",
+    "url_template": "https://namemc.com/profile/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Faceit",
+    "category": "gaming",
+    "url_template": "https://www.faceit.com/en/players/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Bungie",
+    "category": "gaming",
+    "url_template": "https://www.bungie.net/7/en/User/Profile/0/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Epic Games",
+    "category": "gaming",
+    "url_template": "https://www.epicgames.com/site/en-US/fortnite/competitive/leaderboards?username={username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "GOG",
+    "category": "gaming",
+    "url_template": "https://www.gog.com/u/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Game Jolt",
+    "category": "gaming",
+    "url_template": "https://gamejolt.com/@{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Medium",
+    "category": "blogging",
+    "url_template": "https://medium.com/@{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Substack",
+    "category": "blogging",
+    "url_template": "https://substack.com/@{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "WordPress.com",
+    "category": "blogging",
+    "url_template": "https://wordpress.com/@{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Blogger",
+    "category": "blogging",
+    "url_template": "https://www.blogger.com/profile/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "LiveJournal",
+    "category": "blogging",
+    "url_template": "https://{username}.livejournal.com/",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Write.as",
+    "category": "blogging",
+    "url_template": "https://write.as/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Telegra.ph",
+    "category": "blogging",
+    "url_template": "https://telegra.ph/@{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Ghost (Explore)",
+    "category": "blogging",
+    "url_template": "https://ghost.org/@{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Dreamwidth",
+    "category": "blogging",
+    "url_template": "https://www.dreamwidth.org/user/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Bear Blog",
+    "category": "blogging",
+    "url_template": "https://bearblog.dev/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Micro.blog",
+    "category": "blogging",
+    "url_template": "https://micro.blog/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Pillowfort",
+    "category": "blogging",
+    "url_template": "https://www.pillowfort.social/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Post.News",
+    "category": "blogging",
+    "url_template": "https://post.news/@{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "SoundCloud",
+    "category": "music",
+    "url_template": "https://soundcloud.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Bandcamp",
+    "category": "music",
+    "url_template": "https://bandcamp.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Last.fm",
+    "category": "music",
+    "url_template": "https://www.last.fm/user/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Mixcloud",
+    "category": "music",
+    "url_template": "https://www.mixcloud.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Audiomack",
+    "category": "music",
+    "url_template": "https://audiomack.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Discogs",
+    "category": "music",
+    "url_template": "https://www.discogs.com/user/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "VocaDB",
+    "category": "music",
+    "url_template": "https://vocadb.net/Ar/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "RateYourMusic",
+    "category": "music",
+    "url_template": "https://rateyourmusic.com/~{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "HearThis.at",
+    "category": "music",
+    "url_template": "https://hearthis.at/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "DistroKid",
+    "category": "music",
+    "url_template": "https://distrokid.com/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "BandLab",
+    "category": "music",
+    "url_template": "https://www.bandlab.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Jamendo",
+    "category": "music",
+    "url_template": "https://www.jamendo.com/artist/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Reddit",
+    "category": "forums-qa",
+    "url_template": "https://www.reddit.com/user/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Quora",
+    "category": "forums-qa",
+    "url_template": "https://www.quora.com/profile/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Hacker News",
+    "category": "forums-qa",
+    "url_template": "https://news.ycombinator.com/user?id={username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Product Hunt",
+    "category": "forums-qa",
+    "url_template": "https://www.producthunt.com/@{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Lemmy.world",
+    "category": "forums-qa",
+    "url_template": "https://lemmy.world/u/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Lobsters",
+    "category": "forums-qa",
+    "url_template": "https://lobste.rs/u/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Super User",
+    "category": "forums-qa",
+    "url_template": "https://superuser.com/users/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Ask Ubuntu",
+    "category": "forums-qa",
+    "url_template": "https://askubuntu.com/users/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Server Fault",
+    "category": "forums-qa",
+    "url_template": "https://serverfault.com/users/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Community Stack Exchange",
+    "category": "forums-qa",
+    "url_template": "https://stackexchange.com/users/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Fandom",
+    "category": "forums-qa",
+    "url_template": "https://community.fandom.com/wiki/User:{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Discourse Meta",
+    "category": "forums-qa",
+    "url_template": "https://meta.discourse.org/u/{username}/summary",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Tildes",
+    "category": "forums-qa",
+    "url_template": "https://tildes.net/user/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Discuss",
+    "category": "forums-qa",
+    "url_template": "https://discuss.com/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "4chan Pass",
+    "category": "forums-qa",
+    "url_template": "https://www.4chan.org/user/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Raddle",
+    "category": "forums-qa",
+    "url_template": "https://raddle.me/user/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Letterboxd",
+    "category": "entertainment",
+    "url_template": "https://letterboxd.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Goodreads",
+    "category": "entertainment",
+    "url_template": "https://www.goodreads.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "MyAnimeList",
+    "category": "entertainment",
+    "url_template": "https://myanimelist.net/profile/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "AniList",
+    "category": "entertainment",
+    "url_template": "https://anilist.co/user/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Trakt",
+    "category": "entertainment",
+    "url_template": "https://trakt.tv/users/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "TV Time",
+    "category": "entertainment",
+    "url_template": "https://www.tvtime.com/user/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Serializd",
+    "category": "entertainment",
+    "url_template": "https://serializd.com/user/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Rate Your Music",
+    "category": "entertainment",
+    "url_template": "https://rateyourmusic.com/~{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "The Movie Database",
+    "category": "entertainment",
+    "url_template": "https://www.themoviedb.org/u/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Wattpad",
+    "category": "entertainment",
+    "url_template": "https://www.wattpad.com/user/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Archive of Our Own",
+    "category": "entertainment",
+    "url_template": "https://archiveofourown.org/users/{username}/profile",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "FanFiction.net",
+    "category": "entertainment",
+    "url_template": "https://www.fanfiction.net/u/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "AniDB",
+    "category": "entertainment",
+    "url_template": "https://anidb.net/user/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "MangaUpdates",
+    "category": "entertainment",
+    "url_template": "https://www.mangaupdates.com/members.html?id={username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "About.me",
+    "category": "professional",
+    "url_template": "https://about.me/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Keybase",
+    "category": "professional",
+    "url_template": "https://keybase.io/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Wellfound",
+    "category": "professional",
+    "url_template": "https://wellfound.com/u/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "LinkedIn",
+    "category": "professional",
+    "url_template": "https://www.linkedin.com/in/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Polywork",
+    "category": "professional",
+    "url_template": "https://www.polywork.com/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "ORCID",
+    "category": "professional",
+    "url_template": "https://orcid.org/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "ResearchGate",
+    "category": "professional",
+    "url_template": "https://www.researchgate.net/profile/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Academia.edu",
+    "category": "professional",
+    "url_template": "https://www.academia.edu/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Speaker Deck",
+    "category": "professional",
+    "url_template": "https://speakerdeck.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "AngelList",
+    "category": "professional",
+    "url_template": "https://angel.co/u/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Crunchbase",
+    "category": "professional",
+    "url_template": "https://www.crunchbase.com/person/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Muck Rack",
+    "category": "professional",
+    "url_template": "https://muckrack.com/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "OpenSea",
+    "category": "crypto-finance",
+    "url_template": "https://opensea.io/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Rarible",
+    "category": "crypto-finance",
+    "url_template": "https://rarible.com/user/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Foundation",
+    "category": "crypto-finance",
+    "url_template": "https://foundation.app/@{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Mirror",
+    "category": "crypto-finance",
+    "url_template": "https://mirror.xyz/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Lens",
+    "category": "crypto-finance",
+    "url_template": "https://hey.xyz/u/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Farcaster",
+    "category": "crypto-finance",
+    "url_template": "https://warpcast.com//{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Gitcoin",
+    "category": "crypto-finance",
+    "url_template": "https://www.gitcoin.co/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "CoinMarketCap",
+    "category": "crypto-finance",
+    "url_template": "https://coinmarketcap.com/community/profile/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "TradingView",
+    "category": "crypto-finance",
+    "url_template": "https://www.tradingview.com/u/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Investing.com",
+    "category": "crypto-finance",
+    "url_template": "https://www.investing.com/members/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Revolut Community",
+    "category": "crypto-finance",
+    "url_template": "https://community.revolut.com/u/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "BitcoinTalk",
+    "category": "crypto-finance",
+    "url_template": "https://bitcointalk.org/index.php?action=profile;user={username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Steemit",
+    "category": "crypto-finance",
+    "url_template": "https://steemit.com/@{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Hive.blog",
+    "category": "crypto-finance",
+    "url_template": "https://hive.blog/@{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Naver Blog",
+    "category": "regional-misc",
+    "url_template": "https://blog.naver.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Ameba",
+    "category": "regional-misc",
+    "url_template": "https://profile.ameba.jp/ameba/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "FC2 Blog",
+    "category": "regional-misc",
+    "url_template": "https://{username}.blog.fc2.com/",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Hatena Blog",
+    "category": "regional-misc",
+    "url_template": "https://hatenablog.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Qiita",
+    "category": "regional-misc",
+    "url_template": "https://qiita.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Zenn",
+    "category": "regional-misc",
+    "url_template": "https://zenn.dev/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Qiita Team",
+    "category": "regional-misc",
+    "url_template": "https://teams.qiita.com/users/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Komoot",
+    "category": "regional-misc",
+    "url_template": "https://www.komoot.com/user/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Strava",
+    "category": "regional-misc",
+    "url_template": "https://www.strava.com/athletes/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Garmin Connect",
+    "category": "regional-misc",
+    "url_template": "https://connect.garmin.com/modern/profile/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Duolingo",
+    "category": "regional-misc",
+    "url_template": "https://www.duolingo.com/profile/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Goodreads Groups",
+    "category": "regional-misc",
+    "url_template": "https://www.goodreads.com/user/show/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "ResearcherID",
+    "category": "regional-misc",
+    "url_template": "https://www.webofscience.com/wos/author/record/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Instructables",
+    "category": "regional-misc",
+    "url_template": "https://www.instructables.com/member/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Thingiverse",
+    "category": "regional-misc",
+    "url_template": "https://www.thingiverse.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Printables",
+    "category": "regional-misc",
+    "url_template": "https://www.printables.com/@{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Hackaday.io",
+    "category": "regional-misc",
+    "url_template": "https://hackaday.io/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Geocaching",
+    "category": "regional-misc",
+    "url_template": "https://www.geocaching.com/p/default.aspx?guid={username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "MyMiniFactory",
+    "category": "regional-misc",
+    "url_template": "https://www.myminifactory.com/users/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Couchsurfing",
+    "category": "regional-misc",
+    "url_template": "https://www.couchsurfing.com/people/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "OpenStreetMap",
+    "category": "regional-misc",
+    "url_template": "https://www.openstreetmap.org/user/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Wikimedia",
+    "category": "regional-misc",
+    "url_template": "https://meta.wikimedia.org/wiki/User:{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Mastodon.social profile",
+    "category": "regional-misc",
+    "url_template": "https://mastodon.social/@{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Trello",
+    "category": "regional-misc",
+    "url_template": "https://trello.com/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "SlideShare",
+    "category": "regional-misc",
+    "url_template": "https://www.slideshare.net/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Issuu",
+    "category": "regional-misc",
+    "url_template": "https://issuu.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Researcher.life",
+    "category": "regional-misc",
+    "url_template": "https://researcher.life/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  },
+  {
+    "name": "Buy Me a Coffee",
+    "category": "regional-misc",
+    "url_template": "https://www.buymeacoffee.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Ko-fi",
+    "category": "regional-misc",
+    "url_template": "https://ko-fi.com/{username}",
+    "detection_method": "status_code",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": false
+  },
+  {
+    "name": "Patreon",
+    "category": "regional-misc",
+    "url_template": "https://www.patreon.com/{username}",
+    "detection_method": "error_message",
+    "error_code": 404,
+    "not_found_strings": [
+      "user not found",
+      "page not found",
+      "profile not found",
+      "does not exist",
+      "doesn't exist",
+      "no such user"
+    ],
+    "found_strings": [],
+    "high_difficulty": true
+  }
+]

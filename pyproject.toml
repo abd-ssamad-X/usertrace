@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "usertrace-cli"
+version = "1.0.0"
+description = "Best-effort public username availability checker for the terminal"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["aiohttp>=3.9,<4", "colorama>=0.4.6,<1"]
+license = { text = "MIT" }
+authors = [{ name = "USERTRACE contributors" }]
+
+[project.scripts]
+usertrace = "usertrace_cli:main"
+
+[tool.setuptools]
+packages = ["usertrace_cli"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+usertrace_cli = ["data/*.json"]
